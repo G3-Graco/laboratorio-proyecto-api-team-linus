@@ -1,3 +1,16 @@
+using Core.Interfaces;
+using Core.Interfaces.Repositorios;
+using Core.Interfaces.Servicios;
+using Core.Services;
+using Core.Servicios;
+using Infrastructure.Data;
+using Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using Services.Services;
+using System.Configuration;
+using System.Reflection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -20,6 +33,14 @@ var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
+
+
+builder.Services.AddControllers();
+
+builder.Services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
+builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+builder.Services.AddScoped(typeof(IUsuarioRepository), typeof(IUsuarioRepository));
+
 
 app.MapGet("/weatherforecast", () =>
 {

@@ -6,8 +6,8 @@ using Core.Entidades;
 
 namespace Core.Interfaces.Repositorios
 {
-    /*public interface ITipoMovimientoRepository : IBaseRepository<TipoMovimiento>
+    public interface ITipoMovimientoRepository : IBaseRepository<TipoMovimiento>
     {
         
-    }*/
+    }
 }

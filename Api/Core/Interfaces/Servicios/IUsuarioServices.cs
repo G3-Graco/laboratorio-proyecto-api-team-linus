@@ -10,9 +10,6 @@ namespace Core.Servicios
     {
 
         Task<string> Login(Usuario user);
-        Task<Usuario> GetUsuarioById(int id);
-        Task<IEnumerable<Usuario>> GetAll();
-        Task<Usuario> CreateUsuario(Usuario newUsuario);
-        Task<Usuario> UpdateUsuario(int usuarioToBeUpdatedId, Usuario newUsuarioValues);
+     
     }
 }

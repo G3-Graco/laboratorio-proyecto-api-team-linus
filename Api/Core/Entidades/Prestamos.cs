@@ -7,14 +7,20 @@ using System.Threading.Tasks;
 namespace Core.Entidades
 {
     public class Prestamos
-    {
-        public int IdPrestamos {get;set;}
-        public int IdCuotas {get;set;}
-        public int IdTasas {get;set;}
-        public int IdCuentas {get;set;}
-        public int IdArchivos {get;set;}
+    {   public int IDPrestamo {get;set;}
+        public int CantCuotas {get;set;}
+        public  Tasas? IDTasa {get; set;}
+        public virtual Tasas? Tasa {get; set;}
+
+        public  Cuentas? IDCuenta {get; set;}
+        public virtual Cuentas? Cuenta {get; set;}
+
         public  DateTime  FechaDeOperacion {get; set;}
         public double Sueldo {get;set;}
         public double Monto {get;set;}
+
+
+
+        
     }
 }

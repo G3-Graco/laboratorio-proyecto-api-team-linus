@@ -8,7 +8,8 @@ namespace Core.Entidades
 {
     public class Cuotas
     {
-        public int Idcuotas {get;set;}
-        public  int  CantCuotas {get; set;}
+        public int IDCuota {get;set;}
+        public  Prestamos? IDPrestamo {get; set;}
+        public virtual Prestamos? Prestamo {get; set;}
     }
 }

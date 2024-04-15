@@ -8,9 +8,9 @@ namespace Core.Entidades
 {
     public class Movimientos
     {
-        public int IdMovimiento {get;set;}
-        public  int  IdTipo {get; set;}
-        public  string?  IdCuenta {get; set;}
+        public int IDMovimiento {get;set;}
+        public  int  IDTipo {get; set;}
+        public  string?  IDCuenta {get; set;}
         public  DateTime  Date {get; set;}
         public  double  Monto {get; set;}
     }

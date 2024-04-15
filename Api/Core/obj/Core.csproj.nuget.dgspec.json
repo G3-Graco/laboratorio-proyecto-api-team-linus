@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER-DAMG\\Desktop\\LAAB-ASP\\laboratorio-proyecto-api-team-linus\\Api\\Core\\Core.csproj": {}
+    "C:\\Users\\USER-DAMG\\Downloads\\laboratorio-proyecto-api-team-linus-main\\Api\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER-DAMG\\Desktop\\LAAB-ASP\\laboratorio-proyecto-api-team-linus\\Api\\Core\\Core.csproj": {
+    "C:\\Users\\USER-DAMG\\Downloads\\laboratorio-proyecto-api-team-linus-main\\Api\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER-DAMG\\Desktop\\LAAB-ASP\\laboratorio-proyecto-api-team-linus\\Api\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\USER-DAMG\\Downloads\\laboratorio-proyecto-api-team-linus-main\\Api\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\USER-DAMG\\Desktop\\LAAB-ASP\\laboratorio-proyecto-api-team-linus\\Api\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\USER-DAMG\\Downloads\\laboratorio-proyecto-api-team-linus-main\\Api\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\USER-DAMG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER-DAMG\\Desktop\\LAAB-ASP\\laboratorio-proyecto-api-team-linus\\Api\\Core\\obj\\",
+        "outputPath": "C:\\Users\\USER-DAMG\\Downloads\\laboratorio-proyecto-api-team-linus-main\\Api\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

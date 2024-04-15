@@ -8,10 +8,7 @@ namespace Core.Entidades
 {
     public class Tasas
     {
-        public int IdTasas {get;set;}
-        public  int  IdTipo {get; set;}
-        public  string?  IdCuenta {get; set;}
-        public  DateTime  Date {get; set;}
-        public  double  Monto {get; set;}
+        public int IDTasa {get;set;}
+        public  int  Porcentaje {get; set;}
     }
 }

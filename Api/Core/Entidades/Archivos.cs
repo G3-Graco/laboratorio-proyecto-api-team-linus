@@ -8,8 +8,11 @@ namespace Core.Entidades
 {
     public class Archivos
     {
-        public int IdArchivos {get;set;}
-        public int CodArchivo {get;set;}
-        public double Sueldo {get;set;}
+        public int IDArchivo {get;set;}
+        public  Prestamos? IDPrestamo {get; set;}
+        public virtual Prestamos? Prestamo {get; set;}
+        public string? Documento {get;set;}
+        
+
     }
 }

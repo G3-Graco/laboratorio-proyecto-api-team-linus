@@ -8,8 +8,8 @@ namespace Core.Entidades
 {
     public class TipoMovimiento
     {
-        public int IdTipo {get;set;}
-        public  string? Type {get; set;}
+        public int IDTipo {get;set;}
+        public  string? Nombre {get; set;}
        
     }
 }

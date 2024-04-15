@@ -9,7 +9,7 @@ namespace Core.Entidades
     public class Usuario
     {
         public int CI {get;set;}
-        public int IdCuentas {get;set;}
+        public int IDCuentas {get;set;}
         public  string?  Nombre {get; set;}
         public  string?  Apellido {get; set;}
         public  DateTime  FechaDenacimiento {get; set;}
