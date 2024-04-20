@@ -7,12 +7,16 @@ using FluentValidation;
 
 namespace Services.Validators
 {
-    public class UsuarioValidators : AbstractValidator<Usuario>
+    public class MovimientosValidators : AbstractValidator<Movimientos>
     {
-        public UsuarioValidators()
+        public MovimientosValidators()
         {
             RuleFor(x => x.IDMovimiento)
-                .MaximumLength(30);
+                .NotNull()
+                .Must(id => id.ToString().Length <= 35)
+                .WithMessage("IDMovimiento debe tener como máximo 35 dígitos.");
+           
+           
              
 
         }

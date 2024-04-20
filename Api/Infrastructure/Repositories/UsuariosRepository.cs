@@ -8,8 +8,8 @@ using Infrastructure.Data;
 
 namespace Infrastructure.Repositories
 {
-    public class UsuarioRepository: BaseRepository<Usuario>, IUsuarioRepository
+    public class UsuariosRepository: BaseRepository<Usuario>, IUsuariosRepository
     {
-        public UsuarioRepository(AppDbContext context) : base(context){}
+        public UsuariosRepository(AppDbContext context) : base(context){}
     }
 }

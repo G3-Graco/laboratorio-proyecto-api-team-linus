@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Infrastructure.Data.Configurations
 {
-    public class UsuarioConfiguration : IEntityTypeConfiguration<Usuario>
+    public class UsuariosConfiguration : IEntityTypeConfiguration<Usuario>
     {
         public void Configure(EntityTypeBuilder<Usuario> builder){
             
@@ -18,11 +18,8 @@ namespace Infrastructure.Data.Configurations
             builder.Property(x => x.Telefono).IsRequired().HasMaxLength(35);
             builder.Property(x => x.CorreoElectronico).IsRequired().HasMaxLength(35);
             builder.Property(x => x.Direccion).IsRequired().HasMaxLength(35);
-                        
-            
-
-            
-      
+            builder.Property(x => x.Contraseña).IsRequired().HasMaxLength(35);
+                    
 
 
             builder

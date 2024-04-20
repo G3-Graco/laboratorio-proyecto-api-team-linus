@@ -14,7 +14,7 @@ namespace Infrastructure.Data.Configurations
             builder
                 .Property(x => x.IDTasa)
                 .IsRequired()
-                .HasMaxLength(35); 
+                .HasMaxLength(5); 
                         
             builder
                 .Property(x => x.Porcentaje).IsRequired().HasMaxLength(35);

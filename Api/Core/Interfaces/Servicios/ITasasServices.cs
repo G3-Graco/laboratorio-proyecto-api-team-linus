@@ -6,8 +6,11 @@ using Core.Entidades;
 
 namespace Core.Interfaces.Servicios
 {
-    public interface ItasasService : IBaseService<Tasas>
+    public interface ITasasService
     {
-        
+        Task<Tasas> GetTasaByPorcentaje(int id);
+
+        Task<IEnumerable<Tasas>> GetAll();
+        Task<Tasas> CreateTasa(Tasas newArchivo);
     }
 }

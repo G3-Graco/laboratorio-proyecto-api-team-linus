@@ -11,9 +11,15 @@ namespace Services.Validators
     {
         public TipoMovimientoValidators()
         {
-            RuleFor(x => x.IDMovimiento)
-                .MaximumLength(10)
-                .WithMessage("El valor de la cédula de identidad esta mal, por favor volver a ingresar");
+            RuleFor(x => x.IDTipo)
+                .NotNull()
+                .Must(id => id.ToString().Length <= 35)
+                .WithMessage("IDTipo debe tener como máximo 35 dígitos.");
+        
+            RuleFor(x => x.Nombre)
+                .NotNull()
+                .Must(id => id.ToString().Length <= 35)
+                .WithMessage("Nombre debe tener como máximo 35 dígitos.");
 
         }
     }

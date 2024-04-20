@@ -12,7 +12,12 @@ namespace Services.Validators
         public CuotasValidators()
         {
             RuleFor(x => x.IDCuota)
-                .MaximumLength(10);
+                .NotNull()
+                .Must(id => id.ToString().Length <= 35)
+                .WithMessage("IDCuota debe tener como máximo 35 dígitos.");
+            
+            RuleFor(x => x.IDPrestamo);
+
 
         }
     }

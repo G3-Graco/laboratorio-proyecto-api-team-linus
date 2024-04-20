@@ -12,9 +12,15 @@ namespace Services.Validators
         public PrestamosValidators()
         {
             RuleFor(x => x.IDPrestamo)
-                .MaximumLength(30)
-                .WithMessage("El valor del prestamo esta mal, por favor volver a ingresar");
-
+                .NotNull()
+                .Must(id => id.ToString().Length <= 35)
+                .WithMessage("IDPrestamo debe tener como máximo 35 dígitos.");
+            
+            RuleFor(x => x.CantCuotas);
+            RuleFor(x => x.IDTasa);
+            RuleFor(x => x.IDCuenta);
+            RuleFor(x => x.FechaDeOperacion);
+            RuleFor(x => x.Monto);
         }
     }
 }

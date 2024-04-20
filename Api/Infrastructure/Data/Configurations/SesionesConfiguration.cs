@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Infrastructure.Data.Configurations
 {
-    public class SesionesRepository : IEntityTypeConfiguration<Sesion>
+    public class SesionesConfigurations : IEntityTypeConfiguration<Sesion>
     {
         public void Configure(EntityTypeBuilder<Sesion> builder){
             

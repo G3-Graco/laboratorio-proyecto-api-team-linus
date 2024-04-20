@@ -23,6 +23,16 @@ namespace Infrastructure.Repositories
         {
             return await dbSet.FindAsync(id);
         }
+        public virtual async ValueTask<TEntity> GetByPorcentajeAsync(double porcentaje)
+        {
+            return await dbSet.FindAsync(porcentaje);
+        }
+
+
+        public virtual async ValueTask<TEntity> GetByNombreAsync(string nombre)
+        {
+            return await dbSet.FindAsync(nombre);
+        }
 
          public virtual async ValueTask<TEntity> GetByIdAsync(int id, string nombre)
         {

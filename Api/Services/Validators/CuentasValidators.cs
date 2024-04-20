@@ -9,11 +9,15 @@ namespace Services.Validators
 {
     public class CuentaValidators : AbstractValidator<Cuentas>
     {
-        public UsuarioValidators()
+        public CuentaValidators()
         {
             RuleFor(x => x.IDCuenta)
-                .Length(12)
-               
+            .NotNull()
+            .Must(id => id.ToString().Length == 12)
+            .WithMessage("IDCuenta debe tener exactamente 12 dígitos.");
+        
+            
+            RuleFor(x => x.Saldo);
         }
     }
 }

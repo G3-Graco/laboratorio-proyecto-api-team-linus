@@ -6,8 +6,10 @@ using Core.Entidades;
 
 namespace Core.Interfaces.Servicios
 {
-    public interface IPrestamosService : IBaseService<Prestamos>
+    public interface IPrestamosService 
     {
-        
+         Task<Prestamos> GetPrestamoById(int id);
+        Task<IEnumerable<Prestamos>> GetAll();
+        Task<Prestamos> CreatePrestamo(Prestamos newPrestamo);
     }
 }

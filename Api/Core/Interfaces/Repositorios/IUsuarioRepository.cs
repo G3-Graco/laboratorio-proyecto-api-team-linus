@@ -1,7 +1,8 @@
 using Core.Entidades;
 namespace Core.Interfaces.Repositorios;
-    public interface IUsuarioRepository : IBaseRepository<Usuario>{
+    public interface IUsuariosRepository : IBaseRepository<Usuario>{
 
-        //Task<IEnumerable<Usarios>> GetAllTipoAsync();
+       
 
     }
+    

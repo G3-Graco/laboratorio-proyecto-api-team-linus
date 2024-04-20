@@ -12,8 +12,15 @@ namespace Services.Validators
         public TasasValidators()
         {
             RuleFor(x => x.IDTasa)
-                .MaximumLength(30)
-                .WithMessage("El valor de la Tasa esta mal, por favor volver a ingresar");
+            .NotNull()
+            .Must(id => id.ToString().Length == 5)
+            .WithMessage("IDTasa debe tener exactamente 5 dígitos.");
+        
+            RuleFor(x => x.Porcentaje)
+                .NotNull()
+                .Must(id => id.ToString().Length <= 35)
+                .WithMessage("Porcentaje debe tener como máximo 35 dígitos.");
+  
 
         }
     }
