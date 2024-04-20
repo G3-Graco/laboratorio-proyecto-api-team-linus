@@ -22,3 +22,14 @@ C:\Users\Lino Paul\Documents\laboratorio-proyecto-api-team-linus-main\Api\Core\o
 C:\Users\Lino Paul\Documents\laboratorio-proyecto-api-team-linus-main\Api\Core\obj\Debug\net8.0\ref\Core.dll
 C:\Users\user\Documents\laboratorio-proyecto-api-team-linus-main\Api\Core\obj\Debug\net8.0\Core.sourcelink.json
 C:\Users\Lino Paul\Documents\laboratorio-proyecto-api-team-linus-main\Api\Core\obj\Debug\net8.0\Core.sourcelink.json
+C:\Users\user\Documents\laboratorio-proyecto-api-team-linus-main-main\Api\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\user\Documents\laboratorio-proyecto-api-team-linus-main-main\Api\Core\bin\Debug\net8.0\Core.dll
+C:\Users\user\Documents\laboratorio-proyecto-api-team-linus-main-main\Api\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\user\Documents\laboratorio-proyecto-api-team-linus-main-main\Api\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\laboratorio-proyecto-api-team-linus-main-main\Api\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\user\Documents\laboratorio-proyecto-api-team-linus-main-main\Api\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\user\Documents\laboratorio-proyecto-api-team-linus-main-main\Api\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\laboratorio-proyecto-api-team-linus-main-main\Api\Core\obj\Debug\net8.0\Core.dll
+C:\Users\user\Documents\laboratorio-proyecto-api-team-linus-main-main\Api\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\user\Documents\laboratorio-proyecto-api-team-linus-main-main\Api\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\user\Documents\laboratorio-proyecto-api-team-linus-main-main\Api\Core\obj\Debug\net8.0\ref\Core.dll

@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Web</name>
+    </assembly>
+    <members>
+        <member name="M:Web.Controllers.ArchivoController.GetAll">
+            <summary>
+            Buscar todos los archivos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.ArchivoController.GetById(System.Int32)">
+            <summary>
+            Buscar archivo por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.ArchivoController.Post(Core.Entidades.Archivos)">
+            <summary>
+            Crear archivo
+            </summary>
+            <param name="Objeto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.Archivo_PrestamoController.GetAll">
+            <summary>
+            Buscar todos 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.Archivo_PrestamoController.GetById(System.Int32)">
+            <summary>
+            Buscar dato por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.CuentaController.GetAll">
+            <summary>
+            Buscar todos los cuentas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.CuentaController.GetCuotaById(System.Int32)">
+            <summary>
+            Buscar cuenta por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.CuentaController.Post(Core.Entidades.Cuentas)">
+            <summary>
+            Crear cuenta
+            </summary>
+            <param name="Objeto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.CuotaController.GetAll">
+            <summary>
+            Buscar todos los archivos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.CuotaController.GetCuotaById(System.Int32)">
+            <summary>
+            Buscar cuota por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.CuotaController.Post(Core.Entidades.Cuotas)">
+            <summary>
+            Crear cuota
+            </summary>
+            <param name="Objeto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.MovimientoController.GetAll">
+            <summary>
+            Buscar todos los movimientos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.MovimientoController.GetCuotaById(System.Int32)">
+            <summary>
+            Buscar movimiento por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.MovimientoController.Post(Core.Entidades.Movimientos)">
+            <summary>
+            Crear movimiento
+            </summary>
+            <param name="Objeto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.PrestamoController.GetAll">
+            <summary>
+            Buscar todos los préstamos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.PrestamoController.GetById(System.Int32)">
+            <summary>
+            Buscar préstamo por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.PrestamoController.Post(Core.Entidades.Prestamos)">
+            <summary>
+            Crear préstamos
+            </summary>
+            <param name="Objeto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.SesionController.Post(Core.Entidades.Usuario)">
+            <summary>
+            Crear sesión
+            </summary>
+            <returns>Objeto de la nueva sesion realizada</returns>
+            <remarks>
+            
+            </remarks>
+        </member>
+        <member name="M:Web.Controllers.SesionController.Post(System.String)">
+            <summary>
+             Validar el token de la sesión
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.SesionController.Close(Core.Entidades.Sesion)">
+            <summary>
+            Cerrar sesiión
+            </summary>
+            <param name="sesion">El objeto de la sesion</param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.TasaController.GetAll">
+            <summary>
+            Buscar todos las tasas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.TasaController.GetTasaByPorcentaje(System.Int32)">
+            <summary>
+            Buscar tasas por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.TasaController.Post(Core.Entidades.Tasas)">
+            <summary>
+            Crear tasa
+            </summary>
+            <param name="Objeto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.TipoArchivoController.GetAll">
+            <summary>
+            Buscar todos las tasas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.TipoArchivoController.GetTipoArchivoByName(System.String)">
+            <summary>
+            Buscar tipos por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.TipoArchivoController.Post(Core.Entidades.TipoArchivos)">
+            <summary>
+            Crear tipos
+            </summary>
+            <param name="Objeto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.TipoMovimientoController.GetAll">
+            <summary>
+            Buscar todos las tipo
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.TipoMovimientoController.GetTipoByName(System.String)">
+            <summary>
+            Buscar tipo por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.TipoMovimientoController.Post(Core.Entidades.TipoMovimiento)">
+            <summary>
+            Crear tipo
+            </summary>
+            <param name="Objeto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.UsuarioController.GetAll">
+            <summary>
+            Buscar todos los usuarios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.UsuarioController.GetById(System.Int32)">
+            <summary>
+            Buscar usuario por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.UsuarioController.Post(Core.Entidades.Usuario)">
+            <summary>
+            Crear usuario
+            </summary>
+            <param name="Objeto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.UsuarioController.Put(System.Int32,Core.Entidades.Usuario)">
+            <summary>
+            Modificar usuario
+            </summary>
+            <param name="id"></param>
+            <param name="Objeto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
