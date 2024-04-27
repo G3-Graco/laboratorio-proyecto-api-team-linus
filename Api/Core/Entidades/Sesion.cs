@@ -5,7 +5,7 @@ using System.Threading.Tasks;
  
 namespace Core.Entidades 
 { 
-    public class Sesion 
+    public class Sesion  
     { 
         public int Id {get; set;} 
         public string? Token {get; set;} 

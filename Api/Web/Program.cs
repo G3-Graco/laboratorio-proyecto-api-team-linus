@@ -68,15 +68,16 @@ builder.Services.AddScoped<IArchivosService, ArchivoService>();
 builder.Services.AddScoped<ICuentasService, CuentaService>();
 builder.Services.AddScoped<ICuotasService, CuotaService>();
 builder.Services.AddScoped<IMovimientosService, MovimientoService>();
-builder.Services.AddScoped<IPrestamosService, PrestamoService>();
+builder.Services.AddScoped<IPrestamosService, PrestamosService>();
 builder.Services.AddScoped<ISesionService, SesionService>();
 builder.Services.AddScoped<ITasasService, TasaService>();
 builder.Services.AddScoped<ITipoArchivosService, TipoArchivoService>();
 builder.Services.AddScoped<ITipoMovimientoService, TipoMovimientoService>();
 
-
+//Conexión con la base de datos
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    
 
 var app = builder.Build();
 app.UseHttpsRedirection();

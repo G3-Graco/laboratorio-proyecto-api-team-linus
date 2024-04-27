@@ -51,7 +51,8 @@ namespace Services.Services
             if (validationResult.IsValid)
             {
                 // Verificar y agregar tasas de interés del 20% y 30% si no existen
-                var tasaInteres20 = await _unitOfWork.TasasRepository.GetByPorcentajeAsync(0.20);
+                var tasaInteres20 = await _unitOfWork.TasasRepository.GetByPorcentajeAsync(20);
+
                 if (tasaInteres20 == null)
                 {
                     var nuevaTasa20 = new Tasas { Porcentaje = 0.20 };
@@ -60,7 +61,7 @@ namespace Services.Services
                     tasaInteres20 = nuevaTasa20; // Asignar la nueva tasa a la variable
                 }
 
-                var tasaInteres30 = await _unitOfWork.TasasRepository.GetByPorcentajeAsync(0.30);
+                var tasaInteres30 = await _unitOfWork.TasasRepository.GetByPorcentajeAsync(30);
                 if (tasaInteres30 == null)
                 {
                     var nuevaTasa30 = new Tasas { Porcentaje = 0.30 };
