@@ -13,7 +13,9 @@ namespace Core.Entidades
         public virtual Prestamos? Prestamo {get; set;}
         public int IDTipoarch {get; set;}
         public virtual TipoArchivos? TipoArchivo {get; set;}
-        public string? Documento {get;set;}
+        public byte[]? Documento {get;set;}
+
+        
         
 
     }
